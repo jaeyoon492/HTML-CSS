@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Breaking Bad</title>
+    <title>Friends - Breaking Bad</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,21 +24,30 @@
         <!-- Lightning Icon -->
       </div>
     </div>
-
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">The Breaking Bad</h1>
-      <p class="welcome-header__text">
-        If you have any drug, It can't be better than this.
-      </p>
-    </header>
-
-    <form action="friend.html" method="GET" id="login-form">
-      <input name="username" type="text" placeholder="What's your name" />
-      <input name="Password" type="text" placeholder="Password" />
-      <input type="submit" value="Let's go get High!" />
-      <a href="#">Find Breaking Bad Account or Password</a>
-    </form>
-
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friend.html"
+            ><i class="fas fa-user-alt fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__threedat"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
     <script
       src="https://kit.fontawesome.com/d15408b54a.js"
       crossorigin="anonymous"
