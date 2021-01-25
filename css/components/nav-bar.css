@@ -1,9 +1,9 @@
 .nav {
-  position: fixed;
+  position: fixed; /* 하단에 네비게이션바 고정(광고창효과) */
   bottom: 0;
   width: 100%;
   background-color: rgba(236, 236, 237, 0.5);
-  padding: 15px 50px;
+  padding: 20px 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
