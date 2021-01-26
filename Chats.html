@@ -1,9 +1,87 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chats - Breaking Bad</title>
   </head>
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__columm">
+        <span>Meth</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To DO: WIFI Icon -->
+      </div>
+      <div class="status-bar__columm">
+        <span>Am12:00</span>
+      </div>
+      <div class="status-bar__columm">
+        <span>492%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- BAttery Icon -->
+        <!-- Lightning Icon -->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-capsules fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__columm">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EUsE9N607X10ofkD-s32pUCvCNLOHDIPaA&usqp=CAU"
+            class="user-component__avatar user-component__avatar"
+          /><!-- 추가로 변경하고 싶을떄 ↑와 같이 추가한다. -->
+          <div class="user-component__text">
+            <h4 class="user-component__title">Heisenbug</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Breaking Bad Account
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__columm"></div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friend.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__threedat"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/d15408b54a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
