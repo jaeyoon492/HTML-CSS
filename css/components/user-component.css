@@ -1,0 +1,51 @@
+.user-component {
+  display: flex;
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
+/* 같은 효과를 적용할때 이런식으로 작성하면 된다. */
+.user-component,
+.user-component__columm:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__columm:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
