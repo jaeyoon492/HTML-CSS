@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Breaking Bad</title>
+    <title>More - Breaking Bad</title>
   </head>
 
   <!-- 상단바 섹션 -->
@@ -29,47 +29,31 @@
 
     <!-- 스크린헤더 섹션 -->
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-capsules fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="screen-header__reddat"></span>
       </div>
     </header>
 
-    <!-- 채팅 알림창 섹션 -->
     <main class="main-screen">
       <div class="user-component">
         <div class="user-component__columm">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EUsE9N607X10ofkD-s32pUCvCNLOHDIPaA&usqp=CAU"
-            class="user-component__avatar user-component__avatar"
-          />
+            class="user-component__avatar user-component__avatar--xl"
+          /><!-- 추가로 변경하고 싶을떄 ↑와 같이 추가한다. -->
           <div class="user-component__text">
             <h4 class="user-component__title">Heisenbug</h4>
-            <h6 class="user-component__subtitle">SAY MY NAME</h6>
+            <h6 class="user-component__subtitle">
+              010-4924-9249<i class="fas fa-exclamation-circle"></i>
+            </h6>
           </div>
         </div>
         <div class="user-component__columm">
-          <span>12:00</span>
-          <span class="chats__notification">1</span>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__columm">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Jesse Pinkman</h4>
-            <h6 class="user-component__subtitle">BITCH!</h6>
-          </div>
-        </div>
-        <div class="user-component__columm">
-          <span>10:30</span>
-          <span class="chats__notification">1</span>
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
       </div>
     </main>
@@ -85,7 +69,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">2</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
