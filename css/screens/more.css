@@ -1,0 +1,45 @@
+.more-screen .icon-row {
+  margin-top: 25px;
+}
+
+.more-suggestions {
+  margin-top: 15px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.more-suggestion__icons {
+  display: flex;
+}
+
+.more-suggestion__icon {
+  margin-right: 30px;
+  display: flex; /* block 형태를 flex로 바꾼다. */
+  flex-direction: column; /* 아이콘과 텍스트가 세로열이 된다. */
+  align-items: center; /* 세로열이 된 아이콘과 텍스트를 중앙정렬한다. */
+}
+
+.more-suggestion__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--sky);
+  border-radius: 10px;
+  display: flex;
+  align-items: center; /* 정중앙위치는 justify-content: center와 함께 사용  */
+  justify-content: center; /* 정중앙위치는 align-items: center와 함께 사용  */
+  margin-bottom: 10px;
+}
+
+.more-suggestion__icon-image i {
+  font-size: 32px;
+  color: white;
+}
+
+.more-suggestion__icon-text {
+  font-weight: 600;
+}

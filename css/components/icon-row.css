@@ -1,0 +1,25 @@
+.icon-row {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.icon-row__icon {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가운데 정렬 */
+  margin-bottom: 10px;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon-name {
+  display: flex;
+  text-align: center; /* 줄정렬  */
+  align-items: center;
+  height: 32px;
+  margin-top: 5px;
+  font-weight: 600;
+}
