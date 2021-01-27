@@ -24,6 +24,7 @@ body {
   padding: 0px var(--horizontal-space);
 }
 
-.Exclamation {
-  color: #578324;
+.Exclamation-icon {
+  color: var(--sky);
+  margin-left: 4px;
 }
