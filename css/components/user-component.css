@@ -4,6 +4,7 @@
 
 .user-component {
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 /* 같은 효과를 적용할때 이런식으로 작성하면 된다. */

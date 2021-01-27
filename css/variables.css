@@ -1,4 +1,6 @@
 :root {
   --sky: #24e47e;
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --gray-color: rgba(0, 0, 0, 0.3);
 }

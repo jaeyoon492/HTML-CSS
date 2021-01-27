@@ -18,21 +18,6 @@
   position: relative;
 }
 
-.nav__notification {
-  display: flex;
-  width: 24px;
-  height: 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  position: absolute;
-  left: 15px;
-  bottom: 15px;
-
-  font-weight: 600;
-  background-color: rgba(238, 71, 56, 0.938);
-  color: white;
-}
 .nav__threedat {
   display: flex;
   width: 6px;

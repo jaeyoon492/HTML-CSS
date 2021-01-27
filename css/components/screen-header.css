@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center; /* 교차축 정렬 */
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,4 +13,17 @@
 
 .screen-header__icons span {
   margin-left: 26px; /* 아이콘 사이사이의 공간을 생성 */
+}
+
+.screen-header__reddat {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 18px;
+  top: 50px;
+  background-color: rgba(238, 71, 56, 0.938);
 }
