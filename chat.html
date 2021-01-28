@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Heisenbug - Breaking Bad</title>
+  </head>
+
+  <!-- 상단바 섹션 -->
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__columm">
+        <span>Meth</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To DO: WIFI Icon -->
+      </div>
+      <div class="status-bar__columm">
+        <span>Am12:00</span>
+      </div>
+      <div class="status-bar__columm">
+        <span>492%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- BAttery Icon -->
+        <!-- Lightning Icon -->
+      </div>
+    </div>
+
+    <!-- 헤더 섹션 -->
+    <header class="alt-header">
+      <div class="alt-header__columm">
+        <a href="Chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__columm">
+        <h1 class="alt-header__title">Heisenbug</h1>
+      </div>
+      <div class="alt-header__columm">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <!-- 메인 섹션 -->
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Friday, January 29,2021</div>
+
+      <div class="message-row">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EUsE9N607X10ofkD-s32pUCvCNLOHDIPaA&usqp=CAU"
+        />
+        <div class="message-row__conntent">
+          <span class="message__author">Heisenbug</span>
+          <div class="message__info">
+            <span class="message__bubble">SAY MY NAME</span>
+            <span class="message__time">11:59</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__conntent">
+          <div class="message__info">
+            <span class="message__bubble">who r u?</span>
+            <span class="message__time">11:55</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__columm">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__columm">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/d15408b54a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

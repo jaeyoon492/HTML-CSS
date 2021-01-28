@@ -1,6 +1,10 @@
+.settings-list {
+  padding-bottom: 22px;
+}
+
 .settings__setting {
   padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -15,4 +19,42 @@
 
 .settings__setting-columm:last-child {
   opacity: 0.5;
+}
+
+.settings-list2 {
+  padding-top: 22px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting2 {
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting2 i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-columm2:last-child {
+  opacity: 0.5;
+}
+
+.settings__setting-columm span div {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+  width: 17px;
+  height: 17px;
+  margin-left: 7px;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
 }
