@@ -27,3 +27,16 @@
   top: 50px;
   background-color: rgba(238, 71, 56, 0.938);
 }
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 1s linear infinite;
+}

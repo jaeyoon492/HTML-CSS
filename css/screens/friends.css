@@ -32,3 +32,27 @@
   font-weight: 700;
   font-size: 15px;
 }
+
+@keyframes hidesplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /* 에니메이션 부분을 숨긴다 하지만 제거하는건 아니다 (제거엔 자바스크립트가 필요) */
+  }
+}
+
+#splash-screen {
+  background-color: #f9e000;
+  position: absolute; /* 배경을 덮기위해 absolute 로 맨위에 올려 주고 크기를 키워서 덮었다. */
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: hidesplashscreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
