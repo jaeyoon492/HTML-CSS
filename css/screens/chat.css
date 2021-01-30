@@ -1,5 +1,5 @@
 .chat-screen {
-  background-color: #abc1d1;
+  background-color: wheat;
   height: 90vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: wheat;
   box-sizing: border-box;
 }
 
