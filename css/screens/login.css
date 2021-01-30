@@ -24,6 +24,7 @@
 }
 
 #login-form input {
+  background-color: wheat;
   border: none;
   padding: 15px 0px;
   font-size: 18px;

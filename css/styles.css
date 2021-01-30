@@ -21,6 +21,7 @@
 @import "screens/chat.css";
 body {
   color: #2e363e;
+  background-color: wheat;
   font-family: "Open Sans", sans-serif;
 }
 
